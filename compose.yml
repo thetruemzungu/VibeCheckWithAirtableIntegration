@@ -1,0 +1,8 @@
+name: vibecheck-dev
+
+services:
+  api:  
+    image: vibecheck-base:latest
+    command: node /app/src/vibecheck.js
+    volumes:
+      - ./:/app

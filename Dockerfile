@@ -6,4 +6,4 @@ COPY ./ ./
 
 RUN npm install airtable
 
-CMD ["node", "./app/vibecheck.js"]
+CMD ["node", "./src/vibecheck.js"]
